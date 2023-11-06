@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>由DALL·E 3 生成</p>
+    <p>  由DALL·E 3 生成  </p>
     <p></p>
     <p></p>
 
