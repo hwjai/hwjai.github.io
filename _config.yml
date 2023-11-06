@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: AI
+first_name: opencat
 middle_name: 
-last_name: 寒武纪
+last_name: AI-寒武纪
 email: liyongcoding@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -121,7 +121,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: AI-寒武纪 # blog_name will be displayed in your blog page
-blog_nav_title: 文章 # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: 一起见证人工智能寒武纪大爆发
 permalink: /blog/:year/:title/
 
