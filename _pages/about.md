@@ -20,17 +20,18 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-我是开源猫opencat！
+我是开源猫**opencat!**
 
 我的公众号是：**AI寒武纪**。这个网站是我的公众号的延伸，我会不定期在这里发布blog，以期更好的提供深入有价值的人工智能见解和前沿科技信息，
 我们这代人可能会亲眼目睹人类有史以来最深刻变革，现在我能清晰的感受到人工智能和科技正在以前所未有的方式在指数级发展
 
 
-more has happened in the last year of AI than the prior 10
+**more has happened in the last year of AI than the prior 10**
 
-we are unmistakably in the fiery takeoff of the most important technology of the rest of our lives
+**we are unmistakably in the fiery takeoff of the most important technology of the rest of our lives**
 
-everybody—governments, citizens, technologists—is awaiting w/bated breath (some helplessly) the next version of humanity
+**everybody—governments, citizens, technologists—is awaiting w/bated breath (some helplessly) the next version of humanity**
+                                                                [Alexandr Wang](https://twitter.com/alexandr_wang/status/1721898517181129107)      
 
 
 **关于我**
