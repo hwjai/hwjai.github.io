@@ -3,7 +3,7 @@ layout: page
 title: submenus
 nav: fasle
 nav_order: 
-dropdown: true
+dropdown: false
 children:
     - title: publications
       permalink: /publications/
