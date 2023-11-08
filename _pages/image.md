@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /imagegraphics/
 title: imagegraphics
 nav: true
 nav_order: 1
