@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /image graphics/
+permalink:  /imageg-raphics/
 title: imageg-raphics
 nav: true
 nav_order: 1
