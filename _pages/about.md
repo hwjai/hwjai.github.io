@@ -19,11 +19,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+
 我是开源猫opencat！
 
 我的公众号是：AI寒武纪。这个网站是我的公众号的延伸，我会不定期在这里发布blog，以期更好的提供深入有价值的人工智能见解和前沿科技信息
 
-关于我
+**关于我**
 
 我本科学习物理学，研究生学习电子工程！现在我是一名DS，我有两只猫：一只银点和一只重点色布偶
 
