@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /imagegraphics/
-title: imagegraphics
+permalink: /image graphics/
+title: imageg-raphics
 nav: true
 nav_order: 1
 description: some 
