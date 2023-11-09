@@ -30,7 +30,7 @@ social: true  # includes social icons at the bottom of the page
 
 **we are unmistakably in the fiery takeoff of the most important technology of the rest of our lives**
 
-**everybody—governments, citizens, technologists—is awaiting w/bated breath (some helplessly) the next version of humanity** -[**_Alexandr Wang_**](https://twitter.com/alexandr_wang/status/1721898517181129107)                               
+**everybody—governments, citizens, technologists—is awaiting w/bated breath (some helplessly) the next version of humanity** -[_Alexandr Wang_](https://twitter.com/alexandr_wang/status/1721898517181129107)                               
 
 
 
