@@ -33,7 +33,7 @@ social: true  # includes social icons at the bottom of the page
 **everybody—governments, citizens, technologists—is awaiting w/bated breath (some helplessly) the next version of humanity**
                                                                 
        
-        by [Alexandr Wang](https://twitter.com/alexandr_wang/status/1721898517181129107)      
+ -[Alexandr Wang](https://twitter.com/alexandr_wang/status/1721898517181129107)      
 
 
 
