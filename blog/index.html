@@ -14,17 +14,6 @@ pagination:
 ---
 
 <div class="container">
-    <div class="sidebar">
-        <h3>所有博客文章</h3>
-        <ul class="post-list">
-            {% for post in site.posts %}
-                <li>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                    <span class="post-timestamp"><strong>{{ post.date | date: "%Y-%m-%d" }}</strong></span>
-                </li>
-            {% endfor %}
-        </ul>
-    </div>
     <div class="main-content">
         {% assign blog_name_size = site.blog_name | size %}
         {% assign blog_description_size = site.blog_description | size %}
@@ -96,6 +85,17 @@ pagination:
                                                     {{ read_time }} min read &nbsp; &middot; &nbsp;
                                                     <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl }}">
                                                         <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+                                                        <div class="sidebar">
+                                                          <h3>所有博客文章</h3>
+                                                          <ul class="post-list">
+                                                              {% for post in site.posts %}
+                                                                  <li>
+                                                                      <a href="{{ post.url }}">{{ post.title }}</a>
+                                                                      <span class="post-timestamp"><strong>{{ post.date | date: "%Y-%m-%d" }}</strong></span>
+                                                                  </li>
+                                                              {% endfor %}
+                                                          </ul>
+                                                      </div>                                                    
                                                 </p>
                                             </div>
                                         </div>
