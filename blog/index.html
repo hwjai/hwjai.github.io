@@ -15,11 +15,12 @@ pagination:
 
 <div class="container">
     <div class="sidebar">
-        <h3>post</h3>
+        <h3>所有博客文章</h3>
         <ul class="post-list">
             {% for post in site.posts %}
                 <li>
                     <a href="{{ post.url }}">{{ post.title }}</a>
+                    <span class="post-timestamp">{{ post.date | date: "%Y-%m-%d" }}</span>
                 </li>
             {% endfor %}
         </ul>
@@ -107,4 +108,8 @@ pagination:
             <hr>
         {% endif %}
     </div>
+</div>
+
+<div class="container">
+    <a href="/blog" class="return-button">返回博客页面</a>
 </div>
