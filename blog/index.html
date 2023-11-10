@@ -53,7 +53,7 @@ pagination:
                     {% endif %}
                     {% for category in site.display_categories %}
                         <li>
-                            <i class "fas fa-tag fa-sm"></i>
+                            <i class="fas fa-tag fa-sm"></i>
                             <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
                         </li>
                         {% unless forloop.last %}
@@ -107,6 +107,17 @@ pagination:
             </div>
             <hr>
         {% endif %}
+
+        <ul class="post-list">
+            {% for post in paginator.posts %}
+                <li class="post-item">
+                    <span class="post-timestamp">{{ post.date | date: "%b %-d, %Y" }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        {% include pagination.html %}
     </div>
 </div>
 
