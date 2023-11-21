@@ -1,80 +1,80 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 
-  <!-- Head -->
-  <head>
+<!-- Head -->
+<head>
     {%- if page.redirect -%}
-      <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
+    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
     {%- endif -%}
     {% include head.html %}
     <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
+</head>
 
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+<!-- Body -->
+<body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-    <!-- Header -->
-    {%- include header.html %}
+<!-- Header -->
+{%- include header.html %}
 
-    <!-- Content -->
-    <div class="container mt-5">
-      {% if page.toc and page.toc.sidebar %}
+<!-- Content -->
+<div class="container mt-5">
+    {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == "right" %}
-        <div class="row">
-          <!-- main content area -->
-          <div class="col-sm-9">
-            {{ content }}
-          </div>
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top">
-              <div class="toc">
-                <ul>
-                  {% for item in page.toc %}
-                    <li>· {{ item }}</li> <!-- 在每个项目前加一个点 -->
-                  {% endfor %}
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
+            <div class="row">
+                <!-- main content area -->
+                <div class="col-sm-9">
+                    {{ content }}
+                </div>
+                <!-- sidebar, which will move to the top on a small screen -->
+                <div class="col-sm-3">
+                    <nav id="toc-sidebar" class="sticky-top">
+                        <div class="toc">
+                            <ul>
+                                {% for item in page.toc %}
+                                    <li>· {{ item }}</li> <!-- 在每个项目前加一个点 -->
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         {% else %}
-        <div class="row">
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top">
-              <div class="toc">
-                <ul>
-                  {% for item in page.toc %}
-                    <li>· {{ item }}</li> <!-- 在每个项目前加一个点 -->
-                  {% endfor %}
-                </ul>
-              </div>
-            </nav>
-          </div>
-          <!-- main content area -->
-          <div class="col-sm-9">
-            {{ content }}
-          </div>
-        </div>
+            <div class="row">
+                <!-- sidebar, which will move to the top on a small screen -->
+                <div class="col-sm-3">
+                    <nav id="toc-sidebar" class="sticky-top">
+                        <div class="toc">
+                            <ul>
+                                {% for item in page.toc %}
+                                    <li>· {{ item }}</li> <!-- 在每个项目前加一个点 -->
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <!-- main content area -->
+                <div class="col-sm-9">
+                    {{ content }}
+                </div>
+            </div>
         {% endif %}
-      {% else %}
+    {% else %}
         {{ content }}
-      {% endif %}
-    </div>
+    {% endif %}
+</div>
 
-    <!-- Footer -->
-    {%- include footer.html %}
+<!-- Footer -->
+{%- include footer.html %}
 
-    <!-- JavaScripts -->
-    {% include scripts/jquery.html %}
-    {% include scripts/bootstrap.html %}
-    {% include scripts/masonry.html %}
-    {% include scripts/misc.html %}
-    {% include scripts/badges.html %}
-    {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
-    {% include scripts/wechatModal.html %}
-  </body>
+<!-- JavaScripts -->
+{% include scripts/jquery.html %}
+{% include scripts/bootstrap.html %}
+{% include scripts/masonry.html %}
+{% include scripts/misc.html %}
+{% include scripts/badges.html %}
+{% include scripts/mathjax.html %}
+{% include scripts/analytics.html %}
+{% include scripts/progressBar.html %}
+{% include scripts/wechatModal.html %}
+</body>
 </html>
