@@ -9,6 +9,9 @@ giscus_comments: true
 related_posts: false
 toc:
   sidebar: left
+  show_heading_numbers: true
+  ordered: true
+  title: "Contents"
 ---
 This post shows how to add a table of contents as a sidebar.
 
