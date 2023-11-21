@@ -3,10 +3,11 @@
 
   <!-- Head -->
   <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
-  {%- endif -%}
-  {% include head.html %}
+    {%- if page.redirect -%}
+      <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
+    {%- endif -%}
+    {% include head.html %}
+    <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
 
   <!-- Body -->
@@ -26,14 +27,30 @@
           </div>
           <!-- sidebar, which will move to the top on a small screen -->
           <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
+            <nav id="toc-sidebar" class="sticky-top">
+              <div class="toc">
+                <ul>
+                  {% for item in page.toc %}
+                    <li>{{ item }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </nav>
           </div>
         </div>
         {% else %}
         <div class="row">
           <!-- sidebar, which will move to the top on a small screen -->
           <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
+            <nav id="toc-sidebar" class="sticky-top">
+              <div class="toc">
+                <ul>
+                  {% for item in page.toc %}
+                    <li>{{ item }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </nav>
           </div>
           <!-- main content area -->
           <div class="col-sm-9">
