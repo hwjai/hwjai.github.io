@@ -43,7 +43,7 @@ social: true  # includes social icons at the bottom of the page
 
 我有两只猫：一只银点和一只重点色布偶
 
-我对图形图像很感兴趣，因此我会在这里分享一些有趣的图形图像，当然包括现在发展非常快的AI生成图像
+
 
 
 
