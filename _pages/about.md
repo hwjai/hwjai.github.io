@@ -20,10 +20,11 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-我是开源猫**opencat!**
 
-我的公众号是：**AI寒武纪**。这个网站是我的公众号的延伸，我会不定期在这里发布blog，以期更好的提供深入有价值的人工智能见解和前沿顶尖科技信息
 
+**AI寒武纪是什么** 
+
+AI寒武纪重点关注人工智能以及最新的前沿科技，致力于持续提供专业深入有价值的人工智能见解和前沿顶尖科技信息，
 
 
 **more has happened in the last year of AI than the prior 10**
@@ -35,13 +36,9 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-**关于我**
+**关于AI寒武纪**
 
-我过去从事软件开发，现在我是一名DS
-
-我是AGI狂热份子，第一批使用ChatGPT以及其他大模型的人，喜欢传播和分享一切有关AI和顶尖科技
-
-我有两只猫：一只银点和一只重点色布偶
+起始于2023年3月份！
 
 
 
