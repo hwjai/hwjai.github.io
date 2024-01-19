@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink:  /image/
-title: image
+title: text2image
 nav: true
 nav_order: 1
 description: some 
